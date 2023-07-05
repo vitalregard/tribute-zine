@@ -633,6 +633,7 @@ a {
     background-color:  #0A0A2A;
     max-width: 800px;
     opacity: 1;
+    margin-bottom: 30px;
 }
 
 .quotes-content {
@@ -658,4 +659,38 @@ button {
     transform: translateY(-3px);
     font-weight:bold;
     color:black;
+  }
+
+  #image-1 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    max-width: 300px;
+    height: 329px;
+    /* added for draggable element feature */
+    position: absolute;
+  }
+  
+  #image-2 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    max-width: 200px;
+    height: 229px;
+    /* added for draggable element feature */
+    position: absolute;
+  }
+  
+  #image-3 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    max-width: 100px;
+    height: 129px;
+    /* added for draggable element feature */
+    position: absolute;
+  }
+
+  img {
+    width: 100%;
   }
